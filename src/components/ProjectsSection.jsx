@@ -15,7 +15,7 @@ const [projects, setProjects] = useState([
   },
   {
     id: 2,
-    title: 'HardHat',
+    title: 'Social Media',
     image: 'images/amazon.png',
     description: 'This is made using Nodejs, reactjs, python, javascript, and some html and css'
   },

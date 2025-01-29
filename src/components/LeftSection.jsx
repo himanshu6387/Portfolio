@@ -13,8 +13,8 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import CodeIcon from '@mui/icons-material/Code';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import { useState } from 'react';
 import RightSection from './RightSection'; 
@@ -32,11 +32,11 @@ export default function PermanentDrawerLeft() {
   ];
 
   const socialItems = [
-    { text: 'LinkedIn', icon: <LinkedInIcon />, url: 'https://www.linkedin.com/in/iamanubhav7/' },
-    { text: 'GitHub', icon: <GitHubIcon />, url: 'https://github.com/hrxdavidmac7' },
-    { text: 'YouTube', icon: <YouTubeIcon />, url: 'https://www.youtube.com/channel/UCRgqzKU2mgrDjj7GoGs3DdA' },
-    { text: 'LeetCode', icon: <CodeIcon />, url: 'https://leetcode.com/anubhav-7/' },
-    { text: 'Telegram', icon: <TelegramIcon />, url: 'https://t.me/hrxdavidmac' }
+    { text: 'LinkedIn', icon: <LinkedInIcon />, url: 'https://www.linkedin.com/in/himanshu-mishra-1a4731221' },
+    { text: 'GitHub', icon: <GitHubIcon />, url: 'https://github.com/himanshu6387' },
+    { text: 'Facebook', icon: <FacebookIcon />, url: 'https://www.facebook.com/share/19uA6sPwGq/' },
+    { text: 'Instagram', icon: <InstagramIcon />, url: 'https://www.instagram.com/himanshu.mishra1?igsh=MXFpbThqMDl6MTd3OA==' },
+    { text: 'Telegram', icon: <TelegramIcon />, url: 'http://t.me/Himanshu63877' }
   ];
 
   const handleMenuItemClick = (url) => {

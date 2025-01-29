@@ -40,7 +40,7 @@ const Contact = () => {
           Feel free to contact me for any inquiries or collaboration opportunities.
         </Typography>
         <Container maxWidth="sm">
-          <form action='https://formspree.io/f/mayrlpvk' method='POST' onSubmit={handleFormSubmit}>
+          <form action='https://formspree.io/f/xpwqdvpg' method='POST' onSubmit={handleFormSubmit}>
             <TextField
               name='Name'
               label="Your Name"

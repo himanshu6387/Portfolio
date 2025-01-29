@@ -9,16 +9,14 @@ const SkillsSection = () => {
     { name: 'Javascript', icon: null },
     { name: 'Typescript', icon: null },
     { name: 'React Js', icon: null },
-    { name: 'Next Js', icon: null },
   ];
 
   const backendSkills = [
     { name: 'Servlet', icon: null },
     { name: 'JSP', icon: null },
     { name: 'Nodejs', icon: null },
-    { name: 'Django', icon: null },
     { name: 'Express Js', icon: null },
-    { name: 'Next auth', icon: null },
+    { name: 'Spring', icon: null },
     { name: 'Springboot', icon: null },
   ];
 
@@ -34,9 +32,8 @@ const SkillsSection = () => {
   const otherSkills = [
     { name: 'Google Cloud', icon: null },
     { name: 'Microsoft Azure', icon: null },
-    { name: 'Qwiklabs', icon: null },
+    { name: 'DBMS', icon: null },
     { name: 'Linux OS', icon: null },
-    { name: 'Bash Scripting', icon: null },
   
   ];
 
