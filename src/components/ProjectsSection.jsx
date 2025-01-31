@@ -16,14 +16,14 @@ const [projects, setProjects] = useState([
   {
     id: 2,
     title: 'Social Media',
-    image: 'images/amazon.png',
+    image: 'https://tutsnode.org/wp-content/uploads/2020/12/Social-Media-Marketing-MASTERY-Learn-Ads-on-10-Platforms.jpg',
     description: 'This is made using Nodejs, reactjs, python, javascript, and some html and css'
   },
   {
     id: 3,
-    title: 'Rumango',
-    image: 'images/hardhat.png',
-    description: 'This is made using Nodejs, reactjs, python, javascript, and some html and css'
+    title: 'Book Shop Project',
+    image: 'https://codecreator.org/projects/wp-content/uploads/sites/3/2015/08/bookshop-management-system-project-vb.jpg',
+    description: 'This is made using Core Java, Advanced Java, React JS, javascript, and some html and css'
   },
   {
     id: 4,

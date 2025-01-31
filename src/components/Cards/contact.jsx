@@ -81,11 +81,11 @@ const Contact = () => {
         <Box sx={{ display: 'flex', justifyContent: 'center', marginTop: '30px', gap: "auto", flexWrap:'wrap'}}>
           <Box sx={{ display: 'flex', alignItems: 'center', marginRight: '30px' }}>
             <EmailIcon style={{ color: '#333', marginRight: '5px' }} />
-            <Typography variant="subtitle2" style={{ color: '#555' }}>anubhavtiwari0007@gmail.com</Typography>
+            <Typography variant="subtitle2" style={{ color: '#555' }}>mishrahimanshuu01@gmail.com</Typography>
           </Box>
           <Box sx={{ display: 'flex', alignItems: 'center', marginRight: '30px' }}>
             <PhoneIcon style={{ color: '#333', marginRight: '5px' }} />
-            <Typography variant="subtitle2" style={{ color: '#555' }}>+91-9336485251</Typography>
+            <Typography variant="subtitle2" style={{ color: '#555' }}>+91-6387795500</Typography>
           </Box>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <LocationOnIcon style={{ color: '#333', marginRight: '5px' }} />

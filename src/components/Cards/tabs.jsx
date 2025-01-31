@@ -65,21 +65,33 @@ export default function BasicTabs() {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="basic tabs example">
-          <Tab label="About me" style={{fontSize:'18px', fontWeight:700}}{...a11yProps(0)} />
-          <Tab label="Position of Responsibility" {...a11yProps(1)} style={{fontSize:'18px', fontWeight:700}} />
-          <Tab label="Certificates" {...a11yProps(2)} style={{fontSize:'18px', fontWeight:700}}  color='red'/>
+          <Tab label="About me" style={{ fontSize: '18px', fontWeight: 700 }}{...a11yProps(0)} />
+          <Tab label="Position of Responsibility" {...a11yProps(1)} style={{ fontSize: '18px', fontWeight: 700 }} />
+          <Tab label="Certificates" {...a11yProps(2)} style={{ fontSize: '18px', fontWeight: 700 }} color='red' />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-  <div style={{ textAlign: 'left', color: "#404040" }} className='text-intro'>
-    <div style={{ marginBottom: '10px' }}>Hi, I'm Anubhav.</div>
-    <div style={{ marginBottom: '10px' }}>I'm a recent graduated fresher.</div>
-    <div style={{ marginBottom: '10px' }}>I graduated with my <strong style={{ color: "#525252" }}>Bachelor of Technology in Electronics and Communication</strong> from Dr. A.P.J. Abdul Kalam Technical University in Spring, 2024.</div>
-    <div style={{ marginBottom: '10px' }}>I love working on exciting products and value learning and growing with people, teams, and technologies. As an intellectually curious, competent, and motivated professional, I am on a lookout for new and exciting opportunities.</div>
-    <div>I’ve written code in a high-paced and challenging environment with an emphasis on using best practices to develop high-quality software that meets project requirements, budget, and schedule. As a keen learner, I possess new and innovative ideas and look forward to working in a great team environment, experiencing and adapting to new technologies and advancements on the go.</div>
-  </div>
-  <Divider />
-</CustomTabPanel>
+        <div style={{ textAlign: 'left', color: "#404040", fontFamily: 'inherit' }} className='text-intro'>
+          <div style={{ marginBottom: '10px' }}>Hii, I'm Himanshu Mishra.</div>
+          <div style={{ marginBottom: '10px' }}>I'm an Experienced Graduated Software Engineer.</div>
+          <div style={{ marginBottom: '10px' }}>
+            With <strong style={{ color: "#525252" }}>6 months of hands-on experience</strong> as a MERN Developer at
+            <strong style={{ color: "#525252" }}> Synclovis Software Pvt. Ltd.</strong>, I honed my skills in full-stack development,
+            building scalable applications with modern technologies.
+          </div>
+          <div style={{ marginBottom: '10px' }}>
+            Currently, I am working as a <strong style={{ color: "#525252" }}>MERN Developer</strong> at
+            <strong style={{ color: "#525252" }}> Hanumant Technology Pvt. Ltd.</strong>, contributing to dynamic projects,
+            optimizing performance, and constantly innovating to deliver impactful solutions.
+          </div>
+
+          <div style={{ marginBottom: '10px' }}>I graduated with my <strong style={{ color: "#525252" }}>Bachelor of Technology in Information Technology</strong> from Dr. A.P.J. Abdul Kalam Technical University in Lucknow, 2024.</div>
+          <div style={{ marginBottom: '10px' }}>I love working on exciting products and value learning and growing with people, teams, and technologies. As an intellectually curious, competent, and motivated professional, I am on a lookout for new and exciting opportunities.</div>
+          <div>I’ve written code in a high-paced and challenging environment with an emphasis on using best practices to develop high-quality software that meets project requirements, budget, and schedule. As a keen learner, I possess new and innovative ideas and look forward to working in a great team environment, experiencing and adapting to new technologies and advancements on the go.</div>
+        </div>
+
+        <Divider />
+      </CustomTabPanel>
 
       <CustomTabPanel value={value} index={1}>
         <Timeline align="left">
@@ -117,10 +129,10 @@ export default function BasicTabs() {
               </Paper>
             </TimelineContent>
           </TimelineItem>
-        </Timeline><Divider/>
-        
+        </Timeline><Divider />
+
       </CustomTabPanel>
-      
+
       <CustomTabPanel value={value} index={2}>
         <Timeline align="left">
           <TimelineItem>
@@ -165,12 +177,12 @@ export default function BasicTabs() {
             <TimelineContent>
               <Paper elevation={3} sx={{ p: 2 }}>
                 <Typography variant="h6" component="h1">
-                  Goldman Sachs Job Simulation
+                  Java Developer Certified
                 </Typography>
               </Paper>
             </TimelineContent>
           </TimelineItem>
-        </Timeline><Divider/>
+        </Timeline><Divider />
       </CustomTabPanel>
     </Box>
   );
