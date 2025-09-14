@@ -73,25 +73,49 @@ export default function BasicTabs() {
       <CustomTabPanel value={value} index={0}>
         <div style={{ textAlign: 'left', color: "#404040", fontFamily: 'inherit' }} className='text-intro'>
           <div style={{ marginBottom: '10px' }}>Hii, I'm Himanshu Mishra.</div>
-          <div style={{ marginBottom: '10px' }}>I'm an Experienced Graduated Software Engineer.</div>
+          <div style={{ marginBottom: '10px' }}>I'm an experienced and passionate Software Engineer.</div>
+
           <div style={{ marginBottom: '10px' }}>
-            With <strong style={{ color: "#525252" }}>6 months of hands-on experience</strong> as a MERN Developer at
-            <strong style={{ color: "#525252" }}> Synclovis Software Pvt. Ltd.</strong>, I honed my skills in full-stack development,
-            building scalable applications with modern technologies.
-          </div>
-          <div style={{ marginBottom: '10px' }}>
-            Currently, I am working as a <strong style={{ color: "#525252" }}>MERN Developer</strong> at
-            <strong style={{ color: "#525252" }}> Hanumant Technology Pvt. Ltd.</strong>, contributing to dynamic projects,
-            optimizing performance, and constantly innovating to deliver impactful solutions.
+            Currently, I am working as an <strong style={{ color: "#525252" }}>Associate Software Engineer</strong> at
+            <strong style={{ color: "#525252" }}> The Smart Bridge Pvt. Ltd.</strong>, where I contribute to building efficient,
+            scalable, and impactful solutions while continuously enhancing my technical expertise.
           </div>
 
-          <div style={{ marginBottom: '10px' }}>I graduated with my <strong style={{ color: "#525252" }}>Bachelor of Technology in Information Technology</strong> from Dr. A.P.J. Abdul Kalam Technical University in Lucknow, 2024.</div>
-          <div style={{ marginBottom: '10px' }}>I love working on exciting products and value learning and growing with people, teams, and technologies. As an intellectually curious, competent, and motivated professional, I am on a lookout for new and exciting opportunities.</div>
-          <div>I’ve written code in a high-paced and challenging environment with an emphasis on using best practices to develop high-quality software that meets project requirements, budget, and schedule. As a keen learner, I possess new and innovative ideas and look forward to working in a great team environment, experiencing and adapting to new technologies and advancements on the go.</div>
+          <div style={{ marginBottom: '10px' }}>
+            Previously, I worked for <strong style={{ color: "#525252" }}>1.5 years</strong> at
+            <strong style={{ color: "#525252" }}> Hanumant Technology Pvt. Ltd.</strong> as a
+            <strong style={{ color: "#525252" }}> MERN Stack Developer</strong>, where I gained extensive hands-on experience in
+            developing dynamic web applications, optimizing performance, and working across the full stack to deliver
+            client-focused solutions.
+          </div>
+
+          <div style={{ marginBottom: '10px' }}>
+            I graduated with my <strong style={{ color: "#525252" }}>Bachelor of Technology in Information Technology</strong>
+            from Dr. A.P.J. Abdul Kalam Technical University in Lucknow, 2024.
+          </div>
+
+          <div style={{ marginBottom: '10px' }}>
+            I love working on exciting products and value learning and growing with people, teams, and technologies.
+            As an intellectually curious, competent, and motivated professional, I strive to write high-quality software
+            that adheres to best practices, meets project requirements, and drives innovation.
+          </div>
+
+          <div style={{ marginBottom: '10px' }}>
+            Always eager to learn and explore new technologies, I look forward to working in collaborative team environments
+            and contributing to impactful projects.
+          </div>
+
+          <div>
+            Additionally, I completed my <strong style={{ color: "#525252" }}>internship</strong> at
+            <strong style={{ color: "#525252" }}> Synclovis Software Systems Pvt. Ltd.</strong> as a
+            <strong style={{ color: "#525252" }}> MERN Developer Intern</strong>, where I built a strong foundation
+            in full-stack development and gained practical exposure to real-world projects.
+          </div>
         </div>
 
         <Divider />
       </CustomTabPanel>
+
 
       <CustomTabPanel value={value} index={1}>
         <Timeline align="left">
@@ -123,7 +147,7 @@ export default function BasicTabs() {
             <TimelineContent>
               <Paper elevation={3} sx={{ p: 2 }}>
                 <Typography variant="h6" component="h1">
-                  IIT Bombay Campus Ambassador
+                  Software Management
                 </Typography>
                 <Typography>Aug 2023 - Dec 2023</Typography>
               </Paper>
@@ -146,7 +170,7 @@ export default function BasicTabs() {
             <TimelineContent>
               <Paper elevation={3} sx={{ p: 2 }}>
                 <Typography variant="h6" component="h1">
-                  Microsoft Azure Ai 900 Certified
+                  MongoDB Certified Associate Developer 
                 </Typography>
               </Paper>
             </TimelineContent>
@@ -162,7 +186,7 @@ export default function BasicTabs() {
             <TimelineContent>
               <Paper elevation={3} sx={{ p: 2 }}>
                 <Typography variant="h6" component="h1">
-                  Oracle Cloud Data Management Certified
+                  Full Stack Certified Developer
                 </Typography>
               </Paper>
             </TimelineContent>
@@ -177,7 +201,7 @@ export default function BasicTabs() {
             <TimelineContent>
               <Paper elevation={3} sx={{ p: 2 }}>
                 <Typography variant="h6" component="h1">
-                  Java Developer Certified
+                   Java Certified Developer
                 </Typography>
               </Paper>
             </TimelineContent>

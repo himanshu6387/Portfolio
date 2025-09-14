@@ -10,7 +10,7 @@ const Header = () => {
       <div className='logo'>Portfolio</div>
       <ul className="nav-list">
         <li><a href="#projects">Projects</a></li>
-        <li><a href="https://drive.google.com/file/d/1cLG3lMOh5EGEij2WzZf17b8jOSQ2J_Kg/view?usp=drive_link" target='blank'>Resume</a></li>
+        <li><a href="https://drive.google.com/file/d/1cLG3lMOh5EGEij2WzZf17b8jOSQ2J_Kg/view?usp=sharing" target='blank'>Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="hamburger-menu">

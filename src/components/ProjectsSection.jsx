@@ -11,26 +11,34 @@ const [projects, setProjects] = useState([
     id: 1,
     title: 'Open-Ai Clone',
     image: 'images/chatgpt.png',
-    description: 'This is made using Nodejs, reactjs, python, javascript, and some html and css'
+    description: 'This is made using Nodejs, Reactjs, Javascript, and Tailwind CSS and also some Python like Technologies',
+    link: ''
   },
   {
     id: 2,
-    title: 'Social Media',
-    image: 'https://tutsnode.org/wp-content/uploads/2020/12/Social-Media-Marketing-MASTERY-Learn-Ads-on-10-Platforms.jpg',
-    description: 'This is made using Nodejs, reactjs, python, javascript, and some html and css'
+    title: 'Job Portal',
+    image: 'https://www.nocturesolutions.com/Content/img/solutionBanners/job.jpg',
+   description: 'This project is built using React, Node.js, Express.js, MongoDB, and Tailwind CSS, with JWT and bcrypt for secure authentication.',
+   link:'https://job-portalfrontend-five.vercel.app/'
   },
   {
     id: 3,
-    title: 'Book Shop Project',
-    image: 'https://codecreator.org/projects/wp-content/uploads/sites/3/2015/08/bookshop-management-system-project-vb.jpg',
-    description: 'This is made using Core Java, Advanced Java, React JS, javascript, and some html and css'
+    title: 'E-Commerce',
+    image: 'https://tse2.mm.bing.net/th/id/OIP.yKOc__wAqqzS5EYi6Psz4gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
+    description: 'This is made using Core Java, Advanced Java like JSP, Servlet, JDBC and Javascript like Technogies',
+    link:'https://ecommerce-mernfrontend.vercel.app/'
+
   },
-  {
+  
+   {
     id: 4,
-    title: 'Ichi-Web',
-    image: 'images/spotify.png',
-    description: 'This is made using Nodejs, reactjs, python, javascript, and some html and css'
-  }]
+    title: 'Social Media',
+    image: 'https://tse2.mm.bing.net/th/id/OIP.Wg_2zWu1B_HwIKXiUcB2uQHaF7?rs=1&pid=ImgDetMain&o=7&rm=3',
+    description: 'This is made using Nodejs, Express,Reactjs,Javascript,MongoDB and Tailwind CSS, with JWT and bcrypt for secure authentication.',
+    link:'https://social-media-vert-nine.vercel.app/'
+  },
+
+]
   
 );
 
@@ -56,7 +64,7 @@ const [projects, setProjects] = useState([
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
-                  Learn More
+                  <a href={project.link}>LEARN MORE</a>
                 </Button>
               </CardActions>
             </Card>

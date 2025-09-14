@@ -14,7 +14,7 @@ const ProfileCard = () => {
           <div className="scrolling-text">
             <div className="slide build-text">Coder</div>
             <div className="slide create-text">Developer</div>
-            <div className="slide design-text">Hacker</div>
+            <div className="slide design-text">Engineer</div>
             <div className="slide code-text">Creater</div>
             <div className="slide build-text">Coder</div> 
           </div>
